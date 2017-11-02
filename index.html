@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Animaltest</title>
+    <title>GifTAstic</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="animalButton"></div>
 
-    <form id="animal-form">
-        <label for="animal-input">Add an animal</label>
-        <input type="text" id="animal-input"><br>
 
-        <input id="addAnimal" type="submit" value="submit">
+<div class="container-fluid">
+
+    <h1>Giphtastic Giphy Search</h1>
+
+    <div id="topicsView"></div>
+
+    <form id="topicForm">
+         <div class="form-group">
+            <div class="row">
+                <div class="col-xs-4">
+                    <label for="topicInput">Add a Topic to the buttons above</label>
+                    <input type="text" id="topicInput" class="form-control" placeholder="Enter new topic">
+                    <input id="addTopic" type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+
+
+
     </form>
-
-    <div id="animals">
-
+    <div id="gifView"></div>
     </div>
-
 
 <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 <script src="hw.js">
